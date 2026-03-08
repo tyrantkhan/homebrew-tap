@@ -3,7 +3,7 @@ cask "bb" do
   name "bb"
   desc "Bitbucket Cloud CLI"
   homepage "https://github.com/tyrantkhan/bitbucket-cli"
-  version "0.0.7"
+  version "0.0.8"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "bb" do
     on_intel do
       url "https://github.com/tyrantkhan/bitbucket-cli/releases/download/v#{version}/bb_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/tyrantkhan/bitbucket-cli/"
-      sha256 "4c6522581168f6c53efe899913d860a7fd15da9a927ba8cda235ea9f3de96aaa"
+      sha256 "5de83b4995bbe508b59efb20b4e193cf1bc5b74bd1a208c76bd1c5a8f11d9776"
     end
     on_arm do
       url "https://github.com/tyrantkhan/bitbucket-cli/releases/download/v#{version}/bb_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/tyrantkhan/bitbucket-cli/"
-      sha256 "8ef6b03867a9ae880a69174358fa7242e861ae76140c0c7fb4acae0337f23d5b"
+      sha256 "2c74ede76946808a9d4eba78a20df6ad14eac42d388d3958f6c04571ae811a87"
     end
   end
 
@@ -28,12 +28,12 @@ cask "bb" do
     on_intel do
       url "https://github.com/tyrantkhan/bitbucket-cli/releases/download/v#{version}/bb_#{version}_linux_amd64.tar.gz",
         verified: "github.com/tyrantkhan/bitbucket-cli/"
-      sha256 "5a02d5232f1a46b2073555501c63a4497ef7f5cc3a3cfab3bb31a11c0dfe1069"
+      sha256 "10f33dc6122c4aa3a71435a3b3fb49af3a1441621e049dbe1d119213239c20c7"
     end
     on_arm do
       url "https://github.com/tyrantkhan/bitbucket-cli/releases/download/v#{version}/bb_#{version}_linux_arm64.tar.gz",
         verified: "github.com/tyrantkhan/bitbucket-cli/"
-      sha256 "8be3190e831416abf33f4b6ea6b7935ae9503958a863f4fb68ef72b1cdb18a1e"
+      sha256 "c611433dbebfabb2c857aea3a45e3272e2b3caaedc78446c8faae3aa3a15cff3"
     end
   end
 
